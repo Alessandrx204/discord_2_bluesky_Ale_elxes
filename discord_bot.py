@@ -59,7 +59,7 @@ class DiscordBot:
                 self,
                 interaction: discord.Interaction,
                 text: str,
-                *, #free for hypothetical other platforms eg. mastodon, reddit,  twitter(not X)...
+                *, #free for hypothetical other platforms e.g. mastodon, reddit,  twitter(not X)...
                 post_to_bluesky: bool = False,
                 post_to_telegram: bool = False,
         ) -> None:

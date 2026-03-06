@@ -71,7 +71,7 @@ class BlueskyService:
 class PostLogger:
     """Logger for storing post records in JSON format."""
 
-    def __init__(self, log_file: str = "posts_log.json") -> None:
+    def __init__(self, log_file: str = config.bs_log_file) -> None:
         """Initialize post logger.
         
         Args:

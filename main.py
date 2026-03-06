@@ -26,7 +26,7 @@ def main() -> None:
             password=config.bluesky_password
         )
 
-        post_logger = PostLogger(log_file=config.log_file)
+        post_logger = PostLogger(log_file=config.bs_log_file)
         
         # Initialize and run bot
         discord_bot = DiscordBot(bluesky_service, post_logger)
