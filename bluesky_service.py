@@ -15,7 +15,7 @@ class BlueskyService:
     """Service for interacting with Bluesky API."""
 
     # Footer text is loaded from the config.py file
-    FOOTER_TEXT = config.bluesky_footer_txt
+    FOOTER_TEXT: str = config.bluesky_footer_txt
 
     def __init__(self, username: str, password: str) -> None:
         """Initialize Bluesky service and authenticate.
