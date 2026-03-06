@@ -149,4 +149,4 @@ MIT
 
 ## CREDITS
 
-(ELXES04)[https://github.com/Elxes04] nice friend and IT teacher
+[ELXES04](https://github.com/Elxes04) nice friend and IT teacher
