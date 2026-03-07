@@ -68,8 +68,3 @@ async def send_to_telegram(message: str) -> None:
     logger.info(f"Response type: {type(response)}")
     logger.info(f"Response: {response}")
     telegram_logger.log_post(response)
-
-"""async def main():
-    await send_to_telegram("Ciao, questo è un test")
-
-asyncio.run(main())"""

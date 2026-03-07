@@ -53,7 +53,7 @@ class DiscordBot:
     def _setup_commands(self) -> None:
         """Register slash commands."""
 
-        # ── helpers interni ──────────────────────────────────────────────────
+        # ── internal helpers ──────────────────────────────────────────────────
 
         async def _do_post(
                 self,
@@ -90,7 +90,7 @@ class DiscordBot:
                 logger.exception("Failed to post")
                 await interaction.followup.send(f"❌ Failed to post: {e}")
 
-        # ── comandi slash ────────────────────────────────────────────────────
+        # ── slash commands ────────────────────────────────────────────────────
 
         @self.bot.tree.command(name="bs_post", description="Post to Bluesky")
         @app_commands.describe(text="The text to post on Bluesky")
