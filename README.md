@@ -80,7 +80,7 @@ venv\Scripts\activate
 #### 3a. On NixOS
 
 ```bash
-nix-shell --run "python main.pi"
+nix-shell --run "python main.py"
 ```
 
 Or enter the dev environment:
