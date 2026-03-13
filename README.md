@@ -71,7 +71,7 @@ TG_FOOTER_TXT= Same as BS_FOOTER_TXT but for Telegram posts
 It is recommended to use a virtual environment to isolate dependencies:
 
 ```bash
-python -m venv venv        # Create the venv
+python -m venv venv        # Creates the venv
 # Activate it:
 # On macOS/Linux:
 source venv/bin/activate
